@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="502.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainForm7Controller">
+    <children>
+        <ImageView fitHeight="526.0" fitWidth="791.0" layoutX="-9.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/BACK.jpg" />
+            </image>
+        </ImageView>
+        <Text fill="#193178" layoutX="14.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTEL BLUE OCEAN">
+            <font>
+                <Font name="System Bold" size="34.0" />
+            </font>
+        </Text>
+        <Text layoutX="14.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR SECOND HOME" wrappingWidth="199.400390625">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="92.0" fitWidth="98.0" layoutX="659.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/LOGO.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="363.0" layoutY="136.0" prefHeight="17.0" prefWidth="74.0" text="PRICE" textFill="#bf2323">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Button layoutX="514.0" layoutY="214.0" mnemonicParsing="false" text="EDIT" />
+        <Button layoutX="514.0" layoutY="260.0" mnemonicParsing="false" text="EDIT" />
+        <Button layoutX="514.0" layoutY="306.0" mnemonicParsing="false" text="EDIT" />
+        <Label layoutX="53.0" layoutY="203.0" prefHeight="46.0" prefWidth="246.0" text="SINGLE ROOM" textFill="#171616">
+            <font>
+                <Font name="System Bold" size="31.0" />
+            </font>
+        </Label>
+        <Label layoutX="53.0" layoutY="250.0" prefHeight="46.0" prefWidth="233.0" text="DOUBLE ROOM" textFill="#fffbfb">
+            <font>
+                <Font name="System Bold" size="31.0" />
+            </font>
+        </Label>
+        <TextField layoutX="332.0" layoutY="214.0" text="LKR.25 000" />
+        <TextField layoutX="332.0" layoutY="260.0" text="LKR.35 000" />
+        <TextField layoutX="332.0" layoutY="306.0" text="LKR.45  000" />
+        <Button fx:id="backId" layoutX="514.0" layoutY="426.0" mnemonicParsing="false" onAction="#newBackClickOnAction" prefHeight="46.0" prefWidth="92.0" text="BACK" textFill="#39688f">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <effect>
+                <Lighting>
+                    <bumpInput>
+                        <Shadow />
+                    </bumpInput>
+                    <light>
+                        <Light.Distant color="#e4f095" />
+                    </light>
+                </Lighting>
+            </effect></Button>
+        <Button fx:id="newNextId" layoutX="646.0" layoutY="426.0" mnemonicParsing="false" onAction="#newNextClickOnAction" prefHeight="46.0" prefWidth="92.0" text="NEXT" textFill="#4073b5">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <effect>
+                <Lighting>
+                    <bumpInput>
+                        <Shadow />
+                    </bumpInput>
+                    <light>
+                        <Light.Distant color="#abc9ac" />
+                    </light>
+                </Lighting>
+            </effect></Button>
+      <Label layoutX="88.0" layoutY="136.0" prefHeight="25.0" prefWidth="99.0" text="ROOM TYPE" textFill="#bf2323">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="332.0" layoutY="349.0" text="LKR.60  000" />
+      <Button layoutX="514.0" layoutY="349.0" mnemonicParsing="false" text="EDIT" />
+      <Label layoutX="53.0" layoutY="296.0" prefHeight="46.0" prefWidth="233.0" text="TRIPPLE ROOM" textFill="#f8f3f3">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="339.0" prefHeight="46.0" prefWidth="233.0" text="QUAD  ROOM" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

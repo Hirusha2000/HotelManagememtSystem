@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="502.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainForm5Controller">
+   <children>
+      <ImageView fitHeight="568.0" fitWidth="1051.0" layoutX="-5.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/BACK.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#0f178a" layoutX="14.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTEL BLUE OCEAN">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR SECOND HOME" wrappingWidth="199.400390625">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="92.0" fitWidth="98.0" layoutX="666.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/LOGO.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="AvailabilitiesId" layoutX="74.0" layoutY="172.0" mnemonicParsing="false" onAction="#AvailabltiesOnAction" prefHeight="54.0" prefWidth="378.0" text="ADD NEW MEAL PACKAGES">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#e4cfcf" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="backsId" layoutX="654.0" layoutY="472.0" mnemonicParsing="false" onAction="#backOnAction" prefHeight="54.0" prefWidth="145.0" text="BACK">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#bbe470" />
+               </light>
+            </Lighting>
+         </effect>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="AvailabilitiesId1" layoutX="74.0" layoutY="266.0" mnemonicParsing="false" onAction="#AvailabltiesOnAction" prefHeight="54.0" prefWidth="378.0" text="MODIFY MEAL PACKAGES">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#e4cfcf" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="AvailabilitiesId11" layoutX="74.0" layoutY="356.0" mnemonicParsing="false" onAction="#AvailabltiesOnAction" prefHeight="54.0" prefWidth="378.0" text="DELETE  MEAL PACKAGES">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#e4cfcf" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

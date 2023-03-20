@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="502.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainForm10Controller">
+    <children>
+        <ImageView fitHeight="528.0" fitWidth="833.0" layoutX="-14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/BACK.jpg" />
+            </image>
+        </ImageView>
+        <Text fill="#317c47" layoutX="14.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTEL BLUE OCEAN">
+            <font>
+                <Font name="System Bold" size="34.0" />
+            </font>
+        </Text>
+        <Text layoutX="14.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR SECOND HOME" wrappingWidth="199.400390625">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="91.0" fitWidth="132.0" layoutX="653.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/LOGO.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="297.0" layoutY="108.0" prefHeight="24.0" prefWidth="51.0" text="AC">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Label>
+        <Label layoutX="406.0" layoutY="108.0" prefHeight="32.0" prefWidth="110.0" text=" NON-AC">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Label>
+        <Text fill="#173786" layoutX="78.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SINGLE ROOMS" wrappingWidth="163.00000369548798">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Text>
+        <Text fill="#f2f2f2" layoutX="78.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOUBLE ROOMS" wrappingWidth="163.00000369548798">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Text>
+        <Text fill="#173786" layoutX="78.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUAD ROOMS" wrappingWidth="172.00000369548798">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Text>
+        <Button fx:id="BackId" layoutX="594.0" layoutY="425.0" mnemonicParsing="false" onAction="#backOnAction" prefHeight="39.0" prefWidth="91.0" text="BACK" textFill="#b92727">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <effect>
+                <Lighting>
+                    <bumpInput>
+                        <Shadow />
+                    </bumpInput>
+                    <light>
+                        <Light.Distant azimuth="360.0" color="#cee1cd" />
+                    </light>
+                </Lighting>
+            </effect>
+        </Button>
+        <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="293.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/YES.png" />
+            </image></ImageView>
+        <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="293.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/YES.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="293.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/YES.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="44.0" fitWidth="37.0" layoutX="432.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/NO.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="44.0" fitWidth="37.0" layoutX="432.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/NO.png" />
+            </image>
+        </ImageView>
+      <Text fill="#f2f2f2" layoutX="78.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TRIPPLE ROOMS" wrappingWidth="163.00000369548798">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="293.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/YES.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="429.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/YES.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="429.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/YES.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

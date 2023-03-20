@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="502.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainForm6Controller">
+   <children>
+      <ImageView fitHeight="528.0" fitWidth="833.0" layoutX="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/BACK.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#317c47" layoutX="14.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTEL BLUE OCEAN">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR SECOND HOME" wrappingWidth="199.400390625">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="91.0" fitWidth="132.0" layoutX="653.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/LOGO.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackId" layoutX="621.0" layoutY="407.0" mnemonicParsing="false" onAction="#backOnAction" prefHeight="39.0" prefWidth="91.0" text="BACK" textFill="#b92727">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#cee1cd" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button layoutX="85.0" layoutY="160.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="271.0" text="VIEW MONTHLY" textFill="#322828">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#6ad7bc" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button layoutX="85.0" layoutY="242.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="271.0" text="VIEW ANUALLY" textFill="#322828">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#6ad7bc" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
